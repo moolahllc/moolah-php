@@ -202,7 +202,7 @@ de-duplication on it, so a retried charge can, in rare cases, be processed twice
 ```php
 new MoolahClient(
     $apiKey,
-    baseUrl: 'https://process.moolah.cc', // default
+    baseUrl: 'https://process.moolahpay.cc', // default
     timeout: 120.0,     // seconds per attempt; must exceed the 90 s terminal wait
     maxRetries: 2,
     userAgent: 'my-practice-app/1.4', // appended to the SDK's User-Agent

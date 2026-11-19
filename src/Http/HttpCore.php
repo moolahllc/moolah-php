@@ -12,7 +12,7 @@ use Moolah\Poynt\Version;
 /** @internal */
 final class HttpCore
 {
-    public const DEFAULT_BASE_URL = 'https://process.moolah.cc';
+    public const DEFAULT_BASE_URL = 'https://process.moolahpay.cc';
     /** Seconds. Terminal payments wait up to 90 s server-side, so the default must be longer. */
     public const DEFAULT_TIMEOUT = 120.0;
     public const DEFAULT_MAX_RETRIES = 2;

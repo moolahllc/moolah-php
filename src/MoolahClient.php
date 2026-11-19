@@ -33,7 +33,7 @@ final class MoolahClient
 
     /**
      * @param string $apiKey your Moolah API key (sent as a Bearer token)
-     * @param string|null $baseUrl defaults to https://process.moolah.cc
+     * @param string|null $baseUrl defaults to https://process.moolahpay.cc
      * @param float|null $timeout seconds per attempt, default 120 (must exceed the 90 s terminal wait)
      * @param int|null $maxRetries retries for retry-eligible requests, default 2
      * @param string|null $userAgent appended to the SDK's User-Agent
