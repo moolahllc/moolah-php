@@ -3,7 +3,7 @@
 Official PHP client for the Moolah Poynt API: saved-card and ACH charges,
 terminal payments, refunds, transactions and webhook verification.
 
-- PHP 8.1 or later with `ext-curl` and `ext-json`. No other dependencies (no Guzzle).
+- PHP 8.3 or later with `ext-curl` and `ext-json`. No other dependencies (no Guzzle).
 - Typed: named arguments, enums, and response model classes with readonly properties.
 - All amounts are **integer cents** (`2500` = $25.00).
 
