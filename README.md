@@ -179,6 +179,7 @@ All SDK exceptions extend `MoolahException` (a `\RuntimeException`). The API cod
 carry numeric API codes as strings: `"101"` cash payment, `"102"` already voided, `"103"`
 partial refund of an unsettled transaction (void it in full instead), `"104"` already
 refunded, `"105"` processor rejected.
+Capture failures: `"106"` amount exceeds the authorized amount, `"107"` invalid (negative) amount.
 
 `$requestId` comes from the `X-Request-Id` (or `X-Poynt-Request-Id`) response header; include
 it when contacting support.

@@ -10,7 +10,8 @@ namespace Moolah\Poynt\Exception;
  * $apiCode is the API's machine-readable code when it sent one, always a string:
  * numeric refund codes become "101" (cash payment), "102" (already voided),
  * "103" (partial refund of an unsettled transaction), "104" (already refunded),
- * "105" (processor rejected); others are strings such as TERMINAL_NO_RESPONSE.
+ * "105" (processor rejected); capture codes are "106" (amount exceeds the
+ * authorization) and "107" (invalid amount); others are strings such as TERMINAL_NO_RESPONSE.
  * (Named apiCode because \Exception::getCode() is reserved for an int.)
  */
 class MoolahApiException extends MoolahException
